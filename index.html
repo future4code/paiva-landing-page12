@@ -64,10 +64,42 @@
 
         </section>
         <section class="contato-container">
-            <div>
-
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro animi laudantium vitae vero quam tenetur accusantium quibusdam adipisci modi illo assumenda illum unde, accusamus veritatis recusandae inventore optio voluptate voluptas.
-
+            <h4>Contato</h4>
+            <div class="txt-contato">
+                Quer ter uma experiência personalizada em sua próxima viagem? Conte com a trip!
+                Você pode entrar em contato conosco e nos dizer o que quer viver em seu próximo 
+                destino, o resto deixa com a gente. 
+            </div>
+            <div class="form-contato">
+                <form id="formulario" action="">
+                    <div>
+                        <label for="nome">NOME: </label>
+                        <input type="text" id="nome" name="nome">
+                    </div>
+                    <div>
+                        <label for="email">E-MAIL: </label>
+                        <input type="email" id="email" name="email" placeholder="user@user.com.br">
+                    </div>
+                    <div>
+                        <label for="assunto">ASSUNTO: </label>
+                        <!-- <input type="text" id="assunto" name="assunto"> -->
+                        <select name="assunto" id="assunto">
+                            <option value="DP">Destinos</option>
+                            <option value="MB">Pacotes</option>
+                            <option value="BF">Dúvidas</option>
+                            <option value="BVM">Sugestões</option>
+                        </select>
+                    </div>
+    
+                    <div>
+                        <label for="mensagem">MENSAGEM: </label>
+                        <textarea name="mensagem" id="mensagem" cols="60" rows="10" placeholder="Deixe sua mensagem, dúvidas e sugestões :D"></textarea>
+                    </div>
+    
+                    <div class="botn-contato">
+                        <button type="submit">Enviar Mensagem</button> 
+                    </div>
+                </form>
             </div>
         </section>
     </main>
