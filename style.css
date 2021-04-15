@@ -1,7 +1,8 @@
 *{
     padding: 0;
     margin: 0;
-    background-color: #fdf3f3;
+    /* background-color: #fdf3f3; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 body{
     display: grid;
@@ -46,8 +47,8 @@ td{
 }
 
 .contato-container {
+    background-image: linear-gradient(to left, #484848 30%, #727070 30%, #727070, #484848 30%);
     display: grid;
-   /*  background-image: linear-gradient(to left, #484848 30%, #727070 30%, #727070, #484848 30%); */
-   background-image: linear-gradient(to left, rgb(154,155,159) 30%, rgb(115,115,116) 30%, rgb(115,115,116), rgb(154,155,159) 30%);
+    grid: 1fr 1fr / 1fr 1fr;
 
 }
