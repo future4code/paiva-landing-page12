@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #fdf3f3;
+}
+body{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    padding-top: 5%;
+
+}
+nav{
+    display:flex;
+    height: 5em;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    width: 100px;
+}
+td{
+    padding: 10px;
+    color: #3e0f17;
+}
+  
+}
+.botao-sobre-nos-container{
+    display: grid;
+    height: 50%;
+    width: 100%;
+    align-content: center;
+    grid-template-columns: repeat( 3, 1fr)
+
+} 
+.botaosobrenos{
+    background-color:#3e0f17;
+    color: cornsilk;
+    border-radius: 25px solid green;
+}
