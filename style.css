@@ -24,7 +24,6 @@ td{
     color: #3e0f17;
 }
   
-}
 .botao-sobre-nos-container{
     display: grid;
     height: 50%;
@@ -37,4 +36,18 @@ td{
     background-color:#3e0f17;
     color: cornsilk;
     border-radius: 25px solid green;
+}
+
+/* ================================ SECAO CONTATO ================================== */
+
+.contato-container h4 {
+    font-size: 40px;
+    color: white;
+}
+
+.contato-container {
+    display: grid;
+   /*  background-image: linear-gradient(to left, #484848 30%, #727070 30%, #727070, #484848 30%); */
+   background-image: linear-gradient(to left, rgb(154,155,159) 30%, rgb(115,115,116) 30%, rgb(115,115,116), rgb(154,155,159) 30%);
+
 }
