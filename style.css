@@ -23,7 +23,9 @@ td{
     padding: 10px;
     color: #3e0f17;
 }
-  
+.sobre-nos-container{
+    display: grid;
+    grid-template-rows: 2fr 1fr;
 }
 .botao-sobre-nos-container{
     display: grid;
