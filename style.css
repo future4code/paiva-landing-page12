@@ -143,3 +143,33 @@ main{
 .botn-contato button:hover {
     box-shadow: 0 0 40px 40px #484848 inset;
 }
+
+/* ================================ SECAO FOOTER ================================== */
+
+footer {
+    background-image: linear-gradient(to left, #3e0f17 30%, #7f7f7f 30%, #7f7f7f, #3e0f17 30%);
+    padding: 5%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+footer h4 {
+    font-size: 1.5em;
+}
+
+footer p {
+    font-size: 1.2em;
+    width: 100%;
+}
+
+.redes-sociais {
+    width: 50%;
+}
+
+.redes-sociais img {
+    width: 5%;
+    padding: 3%;
+}
+  
