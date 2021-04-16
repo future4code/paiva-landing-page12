@@ -15,10 +15,10 @@
             <img src="./logo.png" alt="logo" class="logo">
             <table>
                 <tr>
-                    <td>HOME</td>
-                    <td>Sobre Nós</td>
-                    <td>Pacotes</td>
-                    <td>Contatos</td>
+                    <a href="#anchor-home">HOME</a>
+                    <a href="#anchor-sobre">SOBRE NÓS</a>
+                    <a href="#anchor-pacotes">VIVA NOSSAS EXPERIÊNCIAS</a>
+                    <a href="#anchor-contatos">CONTATOS</a>
                 </tr>
             </table>
 
@@ -29,88 +29,89 @@
     <main>
 
         <div class="inicio">
-            <H2>HOME</H2>
             <div class="slider">
-                
-                        <img src="./C360_2021-01-24-12-40-38-085.jpg" alt="paraíba" class="foto-inicio" />
-               </div>
-
-        <section class="sobre-nos-container">
-
-            <H4>Sobre Nós</H4>
-
-            <p>Somos uma agência de turismo especializada em proporcionar experiências únicas e inesquecíveis. Nossos
-                pacotes são cuidadosamente montados de acordo com o que você acha mais importante.
-                Com mais de dez anos atuando no mercado e apoiando sempre os profissionais locais temos tudo o que você
-                precisa para viver a expêriencia que tanto sonhou.
-                <br>
-                Entre em contato e peça seu orçamento personalizado!
-            </p>
-            <div class="botao-sobre-nos-container">
-                <button class="botaosobrenos">Gastronomia</button>
-                <button class="botaosobrenos">História</button>
-                <button class="botaosobrenos">Cultura</button>
+                <img id="anchor-home" src="./C360_2021-01-24-12-40-38-085.jpg" alt="paraíba" class="foto-inicio" />
             </div>
-        </section>
 
-        <section class="card-contanier">
+            <section class="sobre-nos-container">
 
-            <H1>Pacotes</H1>
+                <H4 id="anchor-sobre">Sobre Nós</H4>
 
-            <div class="card"> <img src="./C360_2021-01-24-12-40-38-085.jpg" class="imagem">
-                <h3>Paraíba</h3>
-                <h6> Praias paradisíacas de água quente! 
-                  <br>  Um ótimo destino para quem gosta de calmaria e belezas naturais
-                </h6>
-            </div>
-            <div class="card"> <img src="./WhatsApp Image 2021-04-15 at 13.22.46.jpeg" class="imagem">
-                <h3>Pernambuco</h3>
-                <h6 >Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
-            </div>
-            <div class="card"> <img src="./WhatsApp Image 2021-04-15 at 13.22.46.jpeg" class="imagem">
-                <h3>São Paulo</h3>
-                <h6>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h6>
-        </section>
+                <p>Somos uma agência de turismo especializada em proporcionar experiências únicas e inesquecíveis.
+                    Nossos
+                    pacotes são cuidadosamente montados de acordo com o que você acha mais importante.
+                    Com mais de dez anos atuando no mercado e apoiando sempre os profissionais locais temos tudo o que
+                    você
+                    precisa para viver a expêriencia que tanto sonhou.
+                    <br>
+                    Entre em contato e peça seu orçamento personalizado!
+                </p>
+                <!-- <div class="botao-sobre-nos-container">
+                    <button class="botaosobrenos">Gastronomia</button>
+                    <button class="botaosobrenos">História</button>
+                    <button class="botaosobrenos">Cultura</button>
+                </div> -->
+            </section>
 
-        <section class="contato-container">
-            <h4>Contato</h4>
-            <div class="txt-contato">
-                Quer ter uma experiência personalizada em sua próxima viagem? Conte com a trip!
-                Você pode entrar em contato conosco e nos dizer o que quer viver em seu próximo
-                destino, o resto deixa com a gente.
-            </div>
-            <div class="form-contato">
-                <form id="formulario" action="">
-                    <div>
-                        <label for="nome">NOME: </label>
-                        <input type="text" id="nome" name="nome">
-                    </div>
-                    <div>
-                        <label for="email">E-MAIL: </label>
-                        <input type="email" id="email" name="email" placeholder="user@user.com.br">
-                    </div>
-                    <div>
-                        <label for="assunto">ASSUNTO: </label>
-                        <select name="assunto" id="assunto">
-                            <option>Destinos</option>
-                            <option>Pacotes</option>
-                            <option>Dúvidas</option>
-                            <option>Sugestões</option>
-                        </select>
-                    </div>
+            <section class="card-contanier">
 
-                    <div>
-                        <label for="mensagem">MENSAGEM: </label>
-                        <textarea name="mensagem" id="mensagem" cols="60" rows="10"
-                            placeholder="Deixe sua mensagem, dúvidas e sugestões :D"></textarea>
-                    </div>
+                <H1 id="anchor-pacotes">Pacotes</H1>
 
-                    <div class="botn-contato">
-                        <button type="submit">ENVIAR</button>
-                    </div>
-                </form>
-            </div>
-        </section>
+                <div class="card"> <img src="./C360_2021-01-24-12-40-38-085.jpg" class="imagem">
+                    <h3>João Pessoa</h3>
+                    <h6> Praias paradisíacas de água quente!</h6>
+                    <h6>Um ótimo destino para quem gosta de calmaria e belezas naturais</h6>
+                </div>
+                <div class="card"> <img src="./WhatsApp Image 2021-04-15 at 13.22.46.jpeg" class="imagem">
+                    <h3>Pernambuco</h3>
+                    <h6>Sol, Praia, Cultura e História</h6>
+                    <h6>Um ótimo destino para quem curte praias urbanas e um noite agitada</h6>
+                </div>
+                <div class="card"> <img src="./WhatsApp Image 2021-04-15 at 13.22.46.jpeg" class="imagem">
+                    <h3>São Paulo</h3>
+                    <h6>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h6>
+                </div>   
+            </section>
+
+            <section class="contato-container">
+                <h4 id="anchor-contatos">Contato</h4>
+                <div class="txt-contato">
+                    Quer ter uma experiência personalizada em sua próxima viagem? Conte com a trip!
+                    Você pode entrar em contato conosco e nos dizer o que quer viver em seu próximo
+                    destino, o resto deixa com a gente.
+                </div>
+                <div class="form-contato">
+                    <form id="formulario" action="">
+                        <div>
+                            <label for="nome">NOME: </label>
+                            <input type="text" id="nome" name="nome">
+                        </div>
+                        <div>
+                            <label for="email">E-MAIL: </label>
+                            <input type="email" id="email" name="email" placeholder="user@user.com.br">
+                        </div>
+                        <div>
+                            <label for="assunto">ASSUNTO: </label>
+                            <select name="assunto" id="assunto">
+                                <option>Destinos</option>
+                                <option>Pacotes</option>
+                                <option>Dúvidas</option>
+                                <option>Sugestões</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label for="mensagem">MENSAGEM: </label>
+                            <textarea name="mensagem" id="mensagem" cols="60" rows="10"
+                                placeholder="Deixe sua mensagem, dúvidas e sugestões :D"></textarea>
+                        </div>
+
+                        <div class="botn-contato">
+                            <button type="submit">ENVIAR</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
 
     </main>
 
