@@ -20,11 +20,13 @@ nav{
     justify-content: space-around;
     align-items: center;
     font-size: 2em;
+    width: 100vw;
 
 }
 .logo{
     height: 100%;
 }
+/* ================================ SECAO HOME ================================== */
 .foto-inicio{
     width: 100%;
 }
@@ -52,6 +54,8 @@ main{
     padding-top: 10px;
     justify-items: center;
     height: 80vh;
+    height: 100vh;
+    width: 100vw;
     
  }
 .botao-sobre-nos-container{
@@ -69,6 +73,7 @@ p{
     text-align: center;
     width: 60%;
     color: white;
+    justify-items: center;
 }
 .txt-contato{
     color: white;
@@ -87,19 +92,41 @@ p{
  }
 
 /* ================================ SECAO CARD ================================== */
-  .card-contanier{
+  
+h1{
+    grid-column: 2;
+    grid-row: 1;
+
+}.card-contanier{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: space-around;
-    height: 50vh;
+    height: 100vh;
+    width: 100vw;
     align-items: center;
+    grid-template-rows: 1fr 4fr;
    }
 .card{
     box-shadow: 10px 10px 10px black;
-}
+    grid-row: 2;
+    height: 70%;
+    justify-items: center;
+  
+    
+   }
 .imagem{
        width: 80%;
+       padding-top: 10%;
   
+}.card:hover{
+    background-color:#3e0f17;
+}
+h6{
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+    padding-top: 5%;
+    height: 30vh;
 }
 
 
