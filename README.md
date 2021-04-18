@@ -1,12 +1,17 @@
-# landing-page-template
-- jullia: oi pessoal, nesse primeiro momento configurei no html o "esqueleto" do nosso site, 
-e também fiz o nav pra gente ter noção de espaço para os próximos compenentes.
-nossa estrutura tem 4 partes:
-o <header> com o <nav> dentro ;
-uma <div> com a classe ínicio, pra gente colcoar as fotos grandes que ficarão passando;
-três <section> pra desenvolver as partes do nosso site: sobre nós/pacotes/contatos;
-e o footer.
-a partir de agora vou seguir com a sessão "sobre nós"
+### Landign Page
 
-sobre qualquer dúvida : estejam á vontade!!
-#tmj
+### O que funciona
+O site para desktop está funcionando corretamente.
+
+### O que não funciona
+Estamos ainda resolvendo problemas em relação a responsividade.
+
+### Link Surge 
+http://juicy-brass.surge.sh/
+
+### Imagens
+![image](https://user-images.githubusercontent.com/81251676/115156454-bb037980-a05a-11eb-9c7e-b6e688d4fb38.png)
+![image](https://user-images.githubusercontent.com/81251676/115156459-c35bb480-a05a-11eb-89fc-473c4e6a4e4d.png)
+![image](https://user-images.githubusercontent.com/81251676/115156468-cb1b5900-a05a-11eb-8379-efbd54c57ee0.png)
+![image](https://user-images.githubusercontent.com/81251676/115156474-d1113a00-a05a-11eb-97de-2ea2a9066b36.png)
+
