@@ -255,3 +255,22 @@ footer p {
     align-items: flex-start;
 }
   
+
+/* ================================ RESPONSIVIDADE ================================== */
+
+@media screen and (min-width: 320px) and (max-width: 420px) {
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inicio {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-contanier {
+        display: flex;
+        flex-direction: column;
+    }
+}
